@@ -1,0 +1,1 @@
+.card>(.head+.card_body>(.meta>(.number+.circle)+.image))

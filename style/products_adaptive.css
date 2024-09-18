@@ -1,0 +1,532 @@
+@media (max-width: 1700px) {
+    .swiper-slide {
+        padding-left: 200px;
+    }
+    
+    .cards {
+        width: calc(100% - 300px);
+        justify-content: space-between;
+        /* gap: 200px; */
+        padding-right: 150px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .cards {
+        /* width: calc(100% - 300px); */
+        gap: 200px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .swiper-slide {
+        padding-left: 150px;
+    }
+
+    .head {
+        font-size: 40px;
+        max-width: 500px;
+        max-height: 190px;
+    }
+
+    .card_body > .image > img {
+        max-width: 250px;
+    }
+
+    a > .yamarket > img, a > .ozon > img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .number {
+        font-size: 100px;
+    }
+
+    .swiper-pagination {
+        --swiper-pagination-left: 20px;
+        --swiper-pagination-bullet-size: 28px;
+        --swiper-pagination-bullet-vertical-gap: 28px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .cards {
+        /* width: calc(100% - 300px); */
+        gap: 100px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #pc {
+        display: none;
+    }
+    
+    .head {
+        justify-content: center;
+    }
+
+    .cards {
+        /* display: block; */
+        gap: 0px;
+        padding: 0px;
+        margin-top: 120px;
+        min-width: 100vw;
+        min-height: 80vw;
+        max-width: 100%;
+        /* display: flex; */
+        /* justify-content: center; */
+    }
+
+    .card {
+        max-height: 80%;
+        max-width: 100%;
+        width: 100%;
+        align-items: center;
+    }
+
+    #pcc {
+        display: block;
+    }
+
+    .swiper-slide-active {
+        padding: 0px;
+    }
+
+    .swiper-slide-prev {
+        padding: 0px;
+    }
+
+    .swiper-slide-next {
+        padding: 0px;
+    }
+
+    .swiper-slide {
+        padding: 0px;
+    }
+
+    .swiper {
+        max-height: 100vh;
+        height: auto;
+    }
+
+    .swiper-pagination {
+        --swiper-pagination-bottom: 90%;
+        --swiper-pagination-bullet-horizontal-gap: 20px;
+    }
+
+    .head {
+        font-size: 80px;
+        max-width: 95%;
+    }
+
+    .number {
+        font-size: 200px;
+    }
+
+    .card_body > .image > img {
+        margin-top: 0px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .card_body > .image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    a > .yamarket > img, a > .ozon > img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .circle:not(.burger_circle) {
+        margin-left: 15%;
+        align-items: start;
+        gap: 45px;
+    }
+
+    #obv > img {
+        height: 100%;
+        width: 100%;
+    }
+
+    #bat {
+        justify-content: end;
+    }
+
+    #mush {
+        padding-top: 20%;
+    }
+
+    .swiper-pagination {
+        --swiper-pagination-bullet-size: 40px;
+        --swiper-pagination-bullet-horizontal-gap: 40px;
+    }
+}
+
+@media (max-width: 1115px) {
+    .head {
+        font-size: 75px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .head {
+        font-size: 70px;
+    }
+
+    .number {
+        font-size: 175px;
+    }
+
+    .card_body > .image > img {
+        max-width: 95%;
+        max-height: 95%;
+    }
+
+    a > .yamarket > img, a > .ozon > img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .circle {
+        gap: 40px;
+    }
+}
+
+@media (max-width: 980px) {
+    .number {
+        font-size: 150px;
+    }
+
+    #obv {
+        justify-content: end;
+        height: 100%;
+    }
+
+    .head {
+        font-size: 60px;
+    }
+
+    .card_body > .image {
+        height: auto;
+        /* width: auto; */
+    }
+
+    .card_body > .image > img {
+        /* margin-top: auto; */
+        max-width: 90%;
+        max-height: 90%;
+    }
+
+    a > .yamarket > img, a > .ozon > img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .circle {
+        gap: 35px;
+    }
+}
+
+@media (max-width: 850px) {
+    #tactic {
+        padding-top: 5%;
+    }
+
+    #pcc {
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    .number {
+        font-size: 140px;
+    }
+
+
+    .cards {
+        margin-top: 100px;
+    }
+
+    .head {
+        font-size: 55px;
+    }
+
+    .card {
+        gap: 0px;
+    }
+
+    .card_body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .card_body > .image > img {
+        max-width: 100%;
+        max-height: 85%;
+    }
+
+    a > .yamarket > img, a > .ozon > img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .circle {
+        gap: 35px;
+    }
+}
+
+@media (max-width: 770px) {
+    .number {
+        font-size: 130px;
+    }
+
+    #tactic {
+        height: 75%;
+    }
+
+    #gojo {
+        width: 90%;
+        height: 90%;
+    }
+
+    .head {
+        font-size: 50px;
+    }
+
+    .card_body > .image > img {
+        /* max-width: 80%; */
+        max-height: 80%;
+    }
+
+    a > .yamarket > img, a > .ozon > img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .circle {
+        gap: 35px;
+    }
+
+    .swiper-pagination {
+        --swiper-pagination-bullet-size: 25px;
+        --swiper-pagination-bullet-horizontal-gap: 25px;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .swiper-pagination {
+        --swiper-pagination-bullet-size: 20px;
+        --swiper-pagination-bullet-horizontal-gap: 20px;
+    }
+
+    .number {
+        font-size: 130px;
+    }
+
+    .head {
+        font-size: 45px;
+    }
+    
+    #bat {
+        /* height: 100%; */
+        width: 100%;
+    }
+
+    #bat > img {
+        height: 60%;
+    }
+
+    
+
+    /* #mush > img {
+        height: 50%;
+        width: 100%;
+    }  */
+
+    /* .card_body > .image > img {
+        height: 80%;
+    } */
+
+    a > .yamarket > img, a > .ozon > img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .circle {
+        gap: 35px;
+    }
+}
+
+@media (max-width: 635px) {
+    .number {
+        font-size: 120px;
+    }
+
+    .cards {
+        margin-top: 70px;
+    }
+
+    .head {
+        font-size: 40px;
+    }
+
+    .card_body > .image > img {
+        max-height: 80%;
+        /* max-width: 80%; */
+    }
+
+    #obv > img {
+        max-width: 100%;
+    }
+
+    a > .yamarket > img, a > .ozon > img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .circle {
+        gap: 35px;
+    }
+}
+
+@media (max-width: 550px) {
+    .swiper-pagination {
+        --swiper-pagination-bullet-size: 20px;
+        --swiper-pagination-bullet-horizontal-gap: 20px;
+    }
+    .number {
+        font-size: 115px;
+    }
+
+    a > .yamarket > img, a > .ozon > img {
+        width: 95px;
+        height: 95px;
+    }
+
+    .circle:not(.burger_circle) {
+        gap: 30px;
+    }
+
+    .head {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 500px) {
+    .number {
+        font-size: 100px;
+    }
+
+    a > .yamarket > img, a > .ozon > img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .circle:not(.burger_circle) {
+        gap: 20px;
+    }
+
+    .head {
+        min-height: 100px;
+        font-size: 29px;
+    }
+}
+
+@media (max-width: 450px) {
+    .number {
+        font-size: 90px;
+    }
+
+    a > .yamarket > img, a > .ozon > img {
+        width: 70px;
+        height: 70px;
+    }
+
+    /* .circle:not(.burger_circle) {
+        gap: 20px;
+    } */
+}
+
+@media (max-width: 425px) {
+    .swiper-pagination {
+        --swiper-pagination-bullet-size: 15px;
+        --swiper-pagination-bullet-horizontal-gap: 15px;
+    }
+
+    .number {
+        font-size: 75px;
+    }
+
+    a > .yamarket > img, a > .ozon > img {
+        width: 70px;
+        height: 70px;
+    }
+
+    /* .circle:not(.burger_circle) {
+        gap: 20px;
+    } */
+
+    .head {
+        font-size: 29px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .cards {
+        margin-top: 70px;
+    }
+
+    .number {
+        font-size: 70px;
+    }
+
+    a > .yamarket > img, a > .ozon > img {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* .circle:not(.burger_circle) {
+        gap: 20px;
+    } */
+
+    .head {
+        font-size: 30px;
+    }
+}
+
+@media (min-height: 700px) and (max-width: 1200px) {
+    main {
+        height: calc(100vh - 125px);
+    }
+
+    #pcc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #pcc > .swiper-wrapper {
+        height: auto;
+    }
+}
+
+/* @media (max-width: 1200px) {
+    #pcc {
+        display: none;
+    }
+} */
+
+/* @media (min-height: 1366px) {
+    .cards {
+        margin-top: 0px;
+    }
+
+    #pcc {
+        margin-top: 0px;
+    }
+} */

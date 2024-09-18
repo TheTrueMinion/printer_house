@@ -1,0 +1,252 @@
+@media (max-width: 1700px) {
+    .swiper-slide {
+        padding-left: 200px;
+    }
+    
+    .cards {
+        width: calc(100% - 300px);
+        justify-content: space-between;
+        /* gap: 200px; */
+        padding-right: 150px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .cards {
+        /* width: calc(100% - 300px); */
+        gap: 200px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .swiper-slide {
+        padding-left: 150px;
+    }
+
+    .head {
+        font-size: 40px;
+        max-width: 500px;
+        max-height: 190px;
+    }
+
+    .card_body > .image > img {
+        max-width: 250px;
+    }
+
+    a > .yamarket > img, a > .ozon > img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .number {
+        font-size: 100px;
+    }
+
+    .swiper-pagination {
+        --swiper-pagination-left: 20px;
+        --swiper-pagination-bullet-size: 28px;
+        --swiper-pagination-bullet-vertical-gap: 28px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .cards {
+        /* width: calc(100% - 300px); */
+        gap: 100px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #pc {
+        display: none;
+    }
+    
+    .head {
+        justify-content: center;
+    }
+
+    .cards {
+        /* display: block; */
+        gap: 0px;
+        padding: 0px;
+        margin-top: 150px;
+        min-width: 100vw;
+        min-height: 80vw;
+        max-width: 100%;
+        /* display: flex; */
+        /* justify-content: center; */
+    }
+
+    .card {
+        max-height: 80%;
+        max-width: 100%;
+        width: 100%;
+        align-items: center;
+    }
+
+    .swiper-mobile {
+        display: block;
+    }
+
+    .swiper-slide-active {
+        padding: 0px;
+    }
+
+    .swiper-slide-prev {
+        padding: 0px;
+    }
+
+    .swiper-slide-next {
+        padding: 0px;
+    }
+
+    .swiper-slide {
+        padding: 0px;
+    }
+
+    .swiper {
+        max-height: 100vh;
+        height: auto;
+    }
+
+    .swiper-pagination {
+        --swiper-pagination-bottom: 90%;
+        --swiper-pagination-bullet-horizontal-gap: 20px;
+    }
+
+    .head {
+        font-size: 80px;
+        max-width: 95%;
+    }
+
+    .number {
+        font-size: 200px;
+    }
+
+    .card_body > .image > img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    a > .yamarket > img, a > .ozon > img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .circle {
+        gap: 45px;
+    }
+}
+
+@media (max-width: 1115px) {
+    .head {
+        font-size: 75px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .head {
+        font-size: 70px;
+    }
+
+    .number {
+        font-size: 175px;
+    }
+
+    .card_body > .image > img {
+        max-width: 95%;
+        max-height: 95%;
+    }
+
+    a > .yamarket > img, a > .ozon > img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .circle {
+        gap: 40px;
+    }
+}
+
+@media (max-width: 980px) {
+    .number {
+        font-size: 150px;
+    }
+
+    .head {
+        font-size: 60px;
+    }
+
+    .card_body > .image {
+        height: auto;
+        /* width: auto; */
+    }
+
+    .card_body > .image {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card_body > .image > img {
+        margin-top: auto;
+        max-width: 90%;
+        max-height: 90%;
+    }
+
+    a > .yamarket > img, a > .ozon > img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .circle {
+        gap: 35px;
+    }
+}
+
+@media (max-width: 840px) {
+    .number {
+        font-size: 140px;
+    }
+
+    .head {
+        font-size: 55px;
+    }
+
+    .card_body > .image > img {
+        max-width: 85%;
+        max-height: 85%;
+    }
+
+    a > .yamarket > img, a > .ozon > img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .circle {
+        gap: 35px;
+    }
+}
+
+@media (max-width: 750px) {
+    .number {
+        font-size: 130px;
+    }
+
+    .head {
+        font-size: 50px;
+    }
+
+    .card_body > .image > img {
+        max-width: 70%;
+        max-height: 70%;
+    }
+
+    a > .yamarket > img, a > .ozon > img {
+        width: 85px;
+        height: 85px;
+    }
+
+    .circle {
+        gap: 35px;
+    }
+}

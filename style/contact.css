@@ -1,0 +1,56 @@
+main {
+    margin-left: 70px;
+    margin-top: 45px;
+    flex-direction: column;
+    gap: 59px;
+}
+
+.how_contact {  
+    color: white;
+    font-weight: bold;
+    font-size: 69px;
+    max-width: 1076px;
+    margin-left: 14px;
+}
+
+.map > iframe{
+    width: 830px;
+    height: 482px;
+    border-radius: 20px;
+    border: none;
+}
+
+.map {
+    filter: drop-shadow(0px 0px 20px rgba(255, 153, 1, 0.4))
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 50px;
+    font-weight: lighter;
+    margin-top: 84px;
+}
+
+.contacts > div > a > span {
+    display: flex;
+    align-items: center;
+}
+
+.contacts > div > a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    gap: 36px;
+}
+
+.social > img {
+    width: 127px;
+    height: 127px;
+}
+
+.bottom {
+    display: flex;
+    gap: 258px;
+}
